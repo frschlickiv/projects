@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frederick Schlick Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4d0106fac2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="IMG/FSLOGO.png" alt="Frederick Schlick Logo" class="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="voice.html" class="nav__link">Singing</a>
+          </li>
+          <li class="nav__item">
+            <a href="webdev.html" class="nav__link">Tech</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Frederick Schlick</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web dev & Opera Singer</p>
+      <img src="IMG/Rodolfo-2.jpg" alt="a picture of me" class="intro__img" />
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Web Development</h3>
+          <p>
+            I have been working as a freelance web developer for roughly three
+            years, working with companies like Eugene's Music Studio of Port
+            Chester, NY, Faith Immanuel Presybyterian Church of Harrisburg, PA,
+            and Leggio Antiques of Barto, PA. Some projects on the horizon are
+            Euphoria Dispensary of New Rochelle, NY.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Voice</h3>
+          <p>
+            I am an operatic tenor! I have been working as a professional singer
+            for eight years and work with companies like Light Opera of New
+            Jersey, Pensacola Opera, Tri-Cities Opera and Nashville Opera, just
+            to name a few.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Resonance</h3>
+          <p>
+            I work for a startup called Resonance! We are a business support
+            platform for the performing arts and fine arts vertical. I am
+            currently the Client Success Manager, but I am training to be a
+            systems constultant for our clients by helping them build their
+            custom backend.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section_subtitle section__subtitle--about">
+        Singer and Web Dev based in New York
+      </p>
+      <div class="about-me__body">
+        <p>
+       Hello World! My name is Fred Schlick! I work in tech and the fine arts. Welcome to my website and feel free to click around to learn more about the different things I do.
+        </p>
+        <p>
+          I think you will find I am eager to collaborate, learn, and build meaningful projects with colleages and friends. 
+        </p>
+      </div>
+      <img src="/IMG/tallSilly.jpg" alt="Singing" class="about-me__img" />
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Choose a destination!
+      </p>
+
+      <div class="portfolio">
+        <!--Portfolio Item 1-->
+        <a href="#" class="portfolio__item">
+          <img src="IMG\portfolio-01.jpg" alt="Tech" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+          <img src="IMG\html.jpg" alt="Opera" class="portfolio__img" />
+        </a>
+      </section>
+
+       
+
+    <!--Footer-->
+    <footer>
+      <ul class="social-list">
+        <!-- email -->
+        <li class="social-list__item">
+          <a href="mailto:frschlickiv@gmail.com" class="social-list__link"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </li>
+
+        <!--Facebook-->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/frederick.schlick"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <!--Instagram-->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/frederick_schlick/?hl=en"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <!--github-->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/frschlickiv">
+            <i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frederick Schlick Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4d0106fac2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="IMG/FSLOGO.png" alt="Frederick Schlick Logo" class="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="home.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="home.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="home.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="home.html#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="voice.html" class="nav__link">Singing</a>
+          </li>
+          <li class="nav__item">
+            <a href="webdev.html" class="nav__link">Tech</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Breaking into <strong>Tech</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        So much Javascript
+      </p>
+      <img
+        src="IMG/Code.jpg"
+        alt="a picture of Jason and I"
+        class="intro__img"
+      />
+    </section>
+    <div class="portfolio-item-individual">
+      <p>
+        I started learning how to code in the spring 2021. It has been a
+        cyclical learning process that has required me to use a number of
+        different resources. Like anyone else, I started with freeCodeCamp. Then
+        I moved onto codecademy and used a number of different fundamentals
+        based courses to get the ball rolling. The vast majority of my coding
+        experience is in Javascript. You can see some of my Javascript projects
+        here.
+      </p>
+      <img src="IMG/theWebDev.jpg" alt="" />
+      <p>
+        My first major project is a tic-tac-toe command line game. (I know how
+        original) The important aspect of this project is understanding pass by
+        reference and mutating an object with a number of different functions.
+      </p>
+      <p>
+        Now I am working my way through more front-end skills with Colt Steele's
+        Web Developer Bootcamp. I will continue Launch school when the time is
+        right, but for now, I want to focus on front-end before I try to break
+        into back-end development. Some other amazing resources I have used are
+        Odin Project, CSX by Codesmith, App Academy Open, and codewars. I have a
+        great deal of drive to break into this industry. I would like to join a
+        coding bootcamp, but it's an expense that I don't feel ready to take on
+        at the moment. Maybe when I can focus solely on web development it will
+        be easier to consolidate my energy.
+      </p>
+    </div>
+    <!--Footer-->
+    <footer>
+      <ul class="social-list">
+        <!-- email -->
+        <li class="social-list__item">
+          <a href="mailto:frschlickiv@gmail.com" class="social-list__link"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </li>
+
+        <!--Facebook-->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/frederick.schlick"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <!--Instagram-->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/frederick_schlick/?hl=en"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <!--github-->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/frschlickiv">
+            <i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
