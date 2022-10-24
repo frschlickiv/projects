@@ -2,6 +2,7 @@ let shop = document.getElementById("shop");
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
+//Populate page with map and template literals
 let generateShop = () => {
   return (shop.innerHTML = shopItemsData
     .map((x) => {
@@ -29,8 +30,10 @@ let generateShop = () => {
     })
     .join(""));
 };
-
+//calling generateShop()
 generateShop();
+
+//increments the items in the basket
 
 let increment = (id) => {
   let selectedItem = id;

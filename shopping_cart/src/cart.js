@@ -103,6 +103,7 @@ let removeItem = (id) => {
   localStorage.setItem("data", JSON.stringify(basket));
 };
 
+//clears the cart
 let clearCart = () => {
   basket = [];
   generateCartItems();
